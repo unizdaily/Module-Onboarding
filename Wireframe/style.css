@@ -55,6 +55,9 @@ main {
 footer {
   position: fixed;
   bottom: 0;
+  width: 100%;
+  background: var(--paper);
+  border-top: var(--line);
   text-align: center;
 }
 /* ====== Articles Grid Layout ====
