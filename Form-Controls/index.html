@@ -13,15 +13,42 @@
     </header>
     <main>
       <form>
-        <!-- write your html here-->
-        <!-- 
-          try writing out the requirements first as comments
-        this will also help you fill in your PR message later-->
+        <label for="first-name">First Name</label>
+        <input type="text" id="first-name" name="first-name"  required minlength="3" />
+        <label for="last-name">Last Name</label>
+        <input type="text" id="last-name" name="last-name"  required minlength="3" />
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email"  required />
+        <fieldset>
+          <legend>Choose a colour</legend>
+          <input type="radio" id="color-baby-pink" name="color" value="baby-pink" required />
+          <label for="color-baby-pink">Baby Pink</label>
+          <input type="radio" id="color-powder-blue" name="color" value="powder-blue" required />
+          <label for="color-powder-blue">Powder Blue</label>
+          <input type="radio" id="color-mint-green" name="color" value="mint-green" required />
+          <label for="color-mint-green">Mint Green</label>
+        </fieldset>
+        <fieldset>
+          <legend>Choose a size</legend>
+          <input type="radio" id="size-xs" name="size" value="XS" required />
+          <label for="size-xs">XS</label>
+          <input type="radio" id="size-s" name="size" value="S" required />
+          <label for="size-s">S</label>
+          <input type="radio" id="size-m" name="size" value="M" required />
+          <label for="size-m">M</label>
+          <input type="radio" id="size-l" name="size" value="L" required />
+          <label for="size-l">L</label>
+          <input type="radio" id="size-xl" name="size" value="XL" required />
+          <label for="size-xl">XL</label>
+          <input type="radio" id="size-xxl" name="size" value="XXL" required />
+          <label for="size-xxl">XXL</label>
+        </fieldset>
+        <button type="submit">Submit</button>
       </form>
     </main>
     <footer>
       <!-- change to your name-->
-      <h2>By HOMEWORK SOLUTION</h2>
+      <h2>By JUNIZA MAGANA</h2>
     </footer>
   </body>
 </html>
